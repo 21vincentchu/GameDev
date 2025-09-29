@@ -1,7 +1,6 @@
 using UnityEngine;
 using System.Collections.Generic;
 using System.Collections;
-using UnityEditor.VisionOS;
 
 public class AppleTree : MonoBehaviour
 {
@@ -16,6 +15,7 @@ public class AppleTree : MonoBehaviour
     void Start()
     {
         Invoke("DropApple", 2f);
+        DropApple();
     }
 
     void DropApple()
